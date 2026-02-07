@@ -300,5 +300,42 @@ Rigoureux, autonome et curieux, je me forme continuellement aux nouvelles techno
 
 ---
 
+## Epic 6 : Version Anglaise du CV
+
+### Story 6.1 : Page CV en anglais
+**En tant que** candidat
+**Je veux** disposer d'une version anglaise de mon CV accessible via `/en`
+**Afin de** pouvoir postuler à des postes internationaux et partager mon CV en anglais
+
+**Critères d'acceptation :**
+- [ ] Nouvelle route `/en` accessible avec le CV complet en anglais
+- [ ] Tout le contenu traduit en anglais (titres, descriptions, expériences, compétences)
+- [ ] Localisation modifiée : "Diani, Kenya" au lieu de "Liège, Belgique"
+- [ ] Numéro de téléphone avec indicatif international : "+32 488486658"
+- [ ] Indication WhatsApp avec icône dédiée dans la section contact
+- [ ] Même design et mise en page que la version française (deux colonnes, thème vert olive)
+- [ ] Optimisé pour l'impression A4 (identique à la version FR)
+- [ ] Composants dédiés : `SidebarEN.tsx` et `MainContentEN.tsx`
+- [ ] Version française (`/`) non impactée
+
+**Fichiers créés :**
+- `src/app/en/page.tsx` — Route de la page anglaise
+- `src/components/SidebarEN.tsx` — Sidebar traduite avec modifications contact/localisation
+- `src/components/MainContentEN.tsx` — Contenu principal traduit
+
+**Modifications spécifiques (EN vs FR) :**
+- Contact : +32 488486658 + WhatsApp (icône SVG)
+- Localisation : Diani, Kenya
+- Sections : About, Strengths, Education, Languages, Experience, Skills, Methods
+- Titre : "Full Stack Web Developer"
+
+---
+
+| Epic | Story | Priorité | Statut |
+|------|-------|----------|--------|
+| 6 | 6.1 Page CV en anglais | Haute | À faire |
+
+---
+
 **Date de création :** 2026-02-06
 **Basé sur :** PRD CV Landing Page Elvis Dushime Emani

@@ -7,6 +7,12 @@ const PhoneIcon = () => (
   </svg>
 );
 
+const WhatsAppIcon = () => (
+  <svg className="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+);
+
 const EmailIcon = () => (
   <svg className="contact-icon" viewBox="0 0 24 24" fill="currentColor">
     <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
@@ -25,7 +31,7 @@ const LocationIcon = () => (
   </svg>
 );
 
-export default function Sidebar() {
+export default function SidebarEN() {
   return (
     <aside className="cv-sidebar">
       {/* Profile Photo */}
@@ -40,15 +46,15 @@ export default function Sidebar() {
         />
       </div>
 
-      {/* À propos */}
+      {/* About */}
       <section>
-        <h2 className="section-title-light">À propos</h2>
+        <h2 className="section-title-light">About</h2>
         <p className="about-text">
-          Développeur Full Stack passionné avec une expertise en Laravel, Vue.js et Python.
-          Je conçois et développe des applications web complètes, du MVP à la production.
-          Mon domaine de prédilection : les applications de trading et dashboards d&apos;analyse,
-          mais je suis à l&apos;aise sur tout type de projet web. Rigoureux, autonome et curieux,
-          je me forme continuellement aux nouvelles technologies.
+          Passionate Full Stack Developer with expertise in Laravel, Vue.js and Python.
+          I design and develop complete web applications, from MVP to production.
+          My area of expertise: trading applications and analytics dashboards,
+          but I am comfortable with any type of web project. Rigorous, autonomous and curious,
+          I continuously train myself in new technologies.
         </p>
       </section>
 
@@ -58,7 +64,11 @@ export default function Sidebar() {
         <div className="flex flex-col gap-2">
           <div className="contact-item">
             <PhoneIcon />
-            <span>0488486658</span>
+            <span>+32 488486658</span>
+          </div>
+          <div className="contact-item">
+            <WhatsAppIcon />
+            <span>WhatsApp</span>
           </div>
           <div className="contact-item">
             <EmailIcon />
@@ -70,56 +80,56 @@ export default function Sidebar() {
           </div>
           <div className="contact-item">
             <LocationIcon />
-            <span>Liège, Belgique</span>
+            <span>Diani, Kenya</span>
           </div>
         </div>
       </section>
 
-      {/* Atouts */}
+      {/* Strengths */}
       <section>
-        <h2 className="section-title-light">Atouts</h2>
+        <h2 className="section-title-light">Strengths</h2>
         <div className="atout-item">
-          <div className="atout-title">Exigeant et travailleur</div>
+          <div className="atout-title">Demanding & Hardworking</div>
           <p className="atout-description">
-            Je donne le meilleur de moi-même lorsqu&apos;on me confie une tâche et je mets
-            tout en œuvre pour aller jusqu&apos;au bout.
+            I give my best when entrusted with a task and I do everything
+            in my power to see it through to completion.
           </p>
         </div>
         <div className="atout-item">
-          <div className="atout-title">Autonomie et initiative</div>
+          <div className="atout-title">Autonomy & Initiative</div>
           <p className="atout-description">
-            Capacité à gérer des projets de A à Z en totale autonomie, comme démontré avec TradeHub.
+            Ability to manage projects from A to Z in full autonomy, as demonstrated with TradeHub.
           </p>
         </div>
         <div className="atout-item">
-          <div className="atout-title">Expertise Trading</div>
+          <div className="atout-title">Trading Expertise</div>
           <p className="atout-description">
-            Trader actif, je comprends les besoins métier des applications financières.
+            Active trader, I understand the business needs of financial applications.
           </p>
         </div>
       </section>
 
-      {/* Formation */}
+      {/* Education */}
       <section>
-        <h2 className="section-title-light">Formation</h2>
+        <h2 className="section-title-light">Education</h2>
         <div className="formation-item">
           <div className="formation-title">Web Development Front-end & Back-end — MolenGeek</div>
-          <div className="formation-date">Mars 2021 - Février 2022</div>
+          <div className="formation-date">March 2021 - February 2022</div>
           <p className="formation-description">
-            Développement Web/Mobile frontend et backend, production de pages web dynamiques
-            à partir de bases de données. Gestion de projet et conception d&apos;interface.
+            Frontend and backend Web/Mobile development, production of dynamic web pages
+            from databases. Project management and interface design.
           </p>
         </div>
       </section>
 
-      {/* Langues */}
+      {/* Languages */}
       <section>
-        <h2 className="section-title-light">Langues</h2>
+        <h2 className="section-title-light">Languages</h2>
         <div className="language-item">
-          <strong>Français</strong> — Natif
+          <strong>French</strong> — Native
         </div>
         <div className="language-item">
-          <strong>Anglais</strong> — Professionnel complet
+          <strong>English</strong> — Full Professional
         </div>
       </section>
     </aside>

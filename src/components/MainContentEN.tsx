@@ -1,4 +1,4 @@
-export default function MainContent() {
+export default function MainContentEN() {
   return (
     <main className="cv-main">
       {/* Header */}
@@ -6,28 +6,28 @@ export default function MainContent() {
         <h1 className="cv-name">
           Dushime <span className="cv-name-bold">Emani Elvis</span>
         </h1>
-        <div className="cv-title">Développeur Web Full Stack</div>
+        <div className="cv-title">Full Stack Web Developer</div>
       </header>
 
-      {/* Expériences */}
+      {/* Experience */}
       <section>
-        <h2 className="section-title">Expériences</h2>
+        <h2 className="section-title">Experience</h2>
 
         <div className="timeline">
           <div className="timeline-item">
             <div className="timeline-dot" />
             <div className="timeline-content">
-              <div className="experience-title">Développeur Full Stack Freelance</div>
-              <div className="experience-meta">2024 - Présent | Remote</div>
+              <div className="experience-title">Full Stack Freelance Developer</div>
+              <div className="experience-meta">2024 - Present | Remote</div>
               <ul className="experience-list">
                 <li>
-                  Conception et développement de <strong>TradeHub</strong>, plateforme SaaS complète pour traders :
-                  Journal de trading avec analyses détaillées, Assistant IA (Claude API),
-                  Marketplace de stratégies, Architecture Laravel 12 + Vue 3 + Inertia.js, PWA mobile-first
+                  Design and development of <strong>TradeHub</strong>, a complete SaaS platform for traders:
+                  Trading journal with detailed analytics, AI Assistant (Claude API),
+                  Strategy marketplace, Laravel 12 + Vue 3 + Inertia.js architecture, mobile-first PWA
                 </li>
                 <li>
-                  Développement site web professionnel pour <strong>Chef Angela</strong> (Kenya) :
-                  Site multi-pages Next.js responsive, intégration WhatsApp, SEO optimisé —
+                  Professional website development for <strong>Chef Angela</strong> (Kenya):
+                  Multi-page responsive Next.js site, WhatsApp integration, SEO optimized —
                   <em> chefangela.co.ke</em>
                 </li>
               </ul>
@@ -37,13 +37,13 @@ export default function MainContent() {
           <div className="timeline-item">
             <div className="timeline-dot" />
             <div className="timeline-content">
-              <div className="experience-title">Développeur Python — Projet Arbitrage P2P</div>
-              <div className="experience-meta">Septembre 2025 | Liège, Belgique</div>
+              <div className="experience-title">Python Developer — P2P Arbitrage Project</div>
+              <div className="experience-meta">September 2025 | Liege, Belgium</div>
               <ul className="experience-list">
-                <li>Conception et développement d&apos;un système complet d&apos;analyse d&apos;arbitrage P2P international</li>
-                <li>Architecture modulaire avec 95 tests automatisés (Pytest)</li>
-                <li>Traitement de données financières multi-devises avec Pandas/NumPy</li>
-                <li>Interface CLI professionnelle avec Rich, gestion de projet en autonomie totale</li>
+                <li>Design and development of a complete international P2P arbitrage analysis system</li>
+                <li>Modular architecture with 95 automated tests (Pytest)</li>
+                <li>Multi-currency financial data processing with Pandas/NumPy</li>
+                <li>Professional CLI interface with Rich, fully autonomous project management</li>
               </ul>
             </div>
           </div>
@@ -51,12 +51,12 @@ export default function MainContent() {
           <div className="timeline-item">
             <div className="timeline-dot" />
             <div className="timeline-content">
-              <div className="experience-title">Développeur Freelance & Formateur — MolenGeek</div>
-              <div className="experience-meta">Janvier 2020 - Janvier 2021 | Bruxelles, Belgique</div>
+              <div className="experience-title">Freelance Developer & Trainer — MolenGeek</div>
+              <div className="experience-meta">January 2020 - January 2021 | Brussels, Belgium</div>
               <ul className="experience-list">
-                <li>Développement de scripts et automatisation pour clients particuliers</li>
-                <li>Résolution de problèmes techniques informatiques</li>
-                <li>Cours particuliers sur les bases de la programmation (JavaScript, Java, C#, Python)</li>
+                <li>Script development and automation for individual clients</li>
+                <li>Technical IT troubleshooting</li>
+                <li>Private tutoring on programming basics (JavaScript, Java, C#, Python)</li>
               </ul>
             </div>
           </div>
@@ -64,28 +64,28 @@ export default function MainContent() {
           <div className="timeline-item">
             <div className="timeline-dot" />
             <div className="timeline-content">
-              <div className="experience-title">Hackathon MolenGeek</div>
-              <div className="experience-meta">Novembre 2021 | Anvers, Belgique</div>
+              <div className="experience-title">MolenGeek Hackathon</div>
+              <div className="experience-meta">November 2021 | Antwerp, Belgium</div>
               <ul className="experience-list">
-                <li>Développement en équipe d&apos;une solution tech en 48h</li>
-                <li>Création du site web de présentation du projet</li>
-                <li>Collaboration en mode Agile avec deadline serrée, pitch devant jury technique</li>
+                <li>Team development of a tech solution in 48 hours</li>
+                <li>Creation of the project presentation website</li>
+                <li>Agile collaboration under tight deadline, pitch before technical jury</li>
               </ul>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Compétences */}
+      {/* Skills */}
       <section>
-        <h2 className="section-title">Compétences</h2>
+        <h2 className="section-title">Skills</h2>
         <div className="skills-grid">
           <div className="skill-category">
             <div className="skill-category-title">Backend</div>
             <div className="skill-tags">
               <span className="skill-tag">Laravel 12</span>
               <span className="skill-tag">Python</span>
-              <span className="skill-tag">API REST</span>
+              <span className="skill-tag">REST API</span>
               <span className="skill-tag">PostgreSQL</span>
               <span className="skill-tag">Redis</span>
               <span className="skill-tag">MySQL</span>
@@ -105,7 +105,7 @@ export default function MainContent() {
           </div>
 
           <div className="skill-category">
-            <div className="skill-category-title">DevOps & Outils</div>
+            <div className="skill-category-title">DevOps & Tools</div>
             <div className="skill-tags">
               <span className="skill-tag">Git / GitHub</span>
               <span className="skill-tag">VPS / Hetzner</span>
@@ -115,7 +115,7 @@ export default function MainContent() {
           </div>
 
           <div className="skill-category">
-            <div className="skill-category-title">Data & IA</div>
+            <div className="skill-category-title">Data & AI</div>
             <div className="skill-tags">
               <span className="skill-tag">Pandas</span>
               <span className="skill-tag">NumPy</span>
@@ -126,13 +126,13 @@ export default function MainContent() {
         </div>
       </section>
 
-      {/* Méthodes */}
+      {/* Methods */}
       <section>
-        <h2 className="section-title">Méthodes</h2>
+        <h2 className="section-title">Methods</h2>
         <div className="skill-tags">
-          <span className="method-tag">Méthode Agile</span>
-          <span className="method-tag">Gestion de projet autonome</span>
-          <span className="method-tag">Mobile-first development</span>
+          <span className="method-tag">Agile Methodology</span>
+          <span className="method-tag">Autonomous Project Management</span>
+          <span className="method-tag">Mobile-first Development</span>
         </div>
       </section>
     </main>
