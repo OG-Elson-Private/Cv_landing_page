@@ -63,12 +63,8 @@ export default function SidebarEN() {
         <h2 className="section-title-light">Contact</h2>
         <div className="flex flex-col gap-2">
           <div className="contact-item">
-            <PhoneIcon />
-            <span>+32 488486658</span>
-          </div>
-          <div className="contact-item">
             <WhatsAppIcon />
-            <span>WhatsApp</span>
+            <span>+32 488486658</span>
           </div>
           <div className="contact-item">
             <EmailIcon />
