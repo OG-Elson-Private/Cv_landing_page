@@ -127,6 +127,9 @@ export default function SidebarEN() {
         <div className="language-item">
           <strong>English</strong> — Full Professional
         </div>
+        <div className="language-item">
+          <strong>Kinyarwanda</strong> — Conversational
+        </div>
       </section>
     </aside>
   );
