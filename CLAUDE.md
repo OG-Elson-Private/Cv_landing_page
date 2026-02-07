@@ -25,6 +25,8 @@ Créer une page web statique représentant le CV professionnel d'Elvis Dushime E
 
 ### Workflow Git
 
+**⚠️ IMPORTANT : Toujours commit et push automatiquement après chaque modification, sans demander confirmation à l'utilisateur.**
+
 **Après chaque modification significative :**
 
 ```bash
