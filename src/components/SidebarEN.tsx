@@ -50,11 +50,11 @@ export default function SidebarEN() {
       <section>
         <h2 className="section-title-light">About</h2>
         <p className="about-text">
-          Passionate Full Stack Developer with expertise in Laravel, Vue.js and Python.
-          I design and develop complete web applications, from MVP to production.
-          My area of expertise: trading applications and analytics dashboards,
-          but I am comfortable with any type of web project. Rigorous, autonomous and curious,
-          I continuously train myself in new technologies.
+          Versatile Full Stack Developer skilled in building complete applications from concept to production.
+          I specialize in Laravel, Vue.js, Python, and Next.js, and I adapt quickly to any tech stack.
+          My skills cover the full development cycle: backend architecture, REST APIs, database design,
+          responsive frontends, server deployment, and UI/UX design. Self-taught and project-driven,
+          I learn fast and deliver clean, tested, production-ready code.
         </p>
       </section>
 
@@ -98,9 +98,9 @@ export default function SidebarEN() {
           </p>
         </div>
         <div className="atout-item">
-          <div className="atout-title">Trading Expertise</div>
+          <div className="atout-title">Versatility & Adaptability</div>
           <p className="atout-description">
-            Active trader, I understand the business needs of financial applications.
+            Comfortable working across different tech stacks and project types. I adapt quickly to new technologies and business requirements.
           </p>
         </div>
       </section>
@@ -110,7 +110,7 @@ export default function SidebarEN() {
         <h2 className="section-title-light">Education</h2>
         <div className="formation-item">
           <div className="formation-title">Web Development Front-end & Back-end — MolenGeek</div>
-          <div className="formation-date">March 2021 - February 2022</div>
+          <div className="formation-date">January 2021 - December 2021</div>
           <p className="formation-description">
             Frontend and backend Web/Mobile development, production of dynamic web pages
             from databases. Project management and interface design.

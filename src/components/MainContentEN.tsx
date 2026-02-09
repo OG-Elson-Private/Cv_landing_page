@@ -4,9 +4,9 @@ export default function MainContentEN() {
       {/* Header */}
       <header className="cv-header">
         <h1 className="cv-name">
-          Dushime <span className="cv-name-bold">Emani Elvis</span>
+          <span className="cv-name-bold">Dushime Emani Elvis</span>
         </h1>
-        <div className="cv-title">Full Stack Web Developer</div>
+        <div className="cv-title">Full Stack Developer</div>
       </header>
 
       {/* Experience */}
@@ -52,7 +52,7 @@ export default function MainContentEN() {
             <div className="timeline-dot" />
             <div className="timeline-content">
               <div className="experience-title">Freelance Developer & Trainer — MolenGeek</div>
-              <div className="experience-meta">January 2020 - January 2021 | Brussels, Belgium</div>
+              <div className="experience-meta">January 2022 - December 2022 | Brussels, Belgium</div>
               <ul className="experience-list">
                 <li>Script development and automation for individual clients</li>
                 <li>Technical IT troubleshooting</li>
